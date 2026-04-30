@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Straive — AI Operationalization for Global Enterprises</title>
+  <link rel="stylesheet" href="./straive_light_interactive.css">
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">
+      <img src="./Images/straive_logo.webp" alt="Straive">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#resource-library">Resource Library</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#careers" class="nav-cta">Careers</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-headline">
+          We Operationalize<br>
+          Data Analytics<br>
+          &amp; <span class="accent" data-text="AI">AI</span> For Global<br>
+          Enterprises
+        </h1>
+        <div class="hero-actions">
+          <a href="#cta" class="btn-primary">Book a Demo →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES -->
+  <section id="capabilities">
+    <div class="caps-header">
+      <div>
+        <h2 class="section-title reveal reveal-d1">Explore our capabilities</h2>
+      </div>
+      <a href="#cta" class="btn-outline reveal reveal-d2" style="align-self:flex-end;margin-bottom:8px;">View All →</a>
+    </div>
+    <div class="caps-grid reveal reveal-d1">
+      <div class="cap-card" data-cap="0">
+        <div class="cap-illu">
+          <canvas class="cap-canvas" width="200" height="120"></canvas>
+        </div>
+        <div class="cap-title">Data Management</div>
+        <div class="cap-desc" style="margin-bottom: 24px;">Achieve seamless, secure, and actionable data flow across the
+          organization, empowering strategic decision-making and operational efficiency.</div>
+        <a href="#" class="btn-outline"
+          style="align-self: flex-start; margin-top: auto; color: var(--white); border-color: rgba(255,255,255,0.3); font-size: 11px;">LEARN
+          MORE</a>
+      </div>
+      <div class="cap-card" data-cap="1">
+        <div class="cap-illu">
+          <canvas class="cap-canvas" width="200" height="120"></canvas>
+        </div>
+        <div class="cap-title">Insights &amp; Analytics</div>
+        <div class="cap-desc" style="margin-bottom: 24px;">Transform data into actionable insights that drive smarter
+          decisions, enhance customer experiences, and fuel business growth.</div>
+        <a href="#" class="btn-outline"
+          style="align-self: flex-start; margin-top: auto; color: var(--white); border-color: rgba(255,255,255,0.3); font-size: 11px;">LEARN
+          MORE</a>
+      </div>
+      <div class="cap-card" data-cap="2">
+        <div class="cap-illu">
+          <canvas class="cap-canvas" width="200" height="120"></canvas>
+        </div>
+        <div class="cap-title">AI Design &amp; Deployment</div>
+        <div class="cap-desc" style="margin-bottom: 24px;">Build with intelligent, scalable AI solutions that enhance
+          business agility and drive measurable impact across critical functions.</div>
+        <a href="#" class="btn-outline"
+          style="align-self: flex-start; margin-top: auto; color: var(--white); border-color: rgba(255,255,255,0.3); font-size: 11px;">LEARN
+          MORE</a>
+      </div>
+      <div class="cap-card" data-cap="3">
+        <div class="cap-illu">
+          <canvas class="cap-canvas" width="200" height="120"></canvas>
+        </div>
+        <div class="cap-title">Product Engg. &amp; Expert-In-The-Loop Ops</div>
+        <div class="cap-desc" style="margin-bottom: 24px;">Accelerate product innovation and quality with seamless
+          expert-driven operations that enhance AI precision and business outcomes.</div>
+        <a href="#" class="btn-outline"
+          style="align-self: flex-start; margin-top: auto; color: var(--white); border-color: rgba(255,255,255,0.3); font-size: 11px;">LEARN
+          MORE</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENTIC -->
+  <section id="agentic">
+    <div class="agentic-sticky-wrap">
+      <!-- LEFT: sticky -->
+      <div class="agentic-left reveal reveal-d1">
+        <h2 class="section-title">Agentic AI for<br>Scalable Intelligence</h2>
+        <p class="agentic-sub">
+          Straive's Agentic AI turns complex data into autonomous, intelligent actions—driving measurable ROI across
+          industries. With 80+ enterprise engagements, 5K+ AI experts, and 6K+ domain specialists, we combine scale with
+          deep specialization to operationalize AI at speed.
+        </p>
+        <a href="#" class="btn-primary" style="margin-top: 32px; display: inline-flex;">LEARN MORE →</a>
+      </div>
+
+      <!-- RIGHT: scrollable lever cards -->
+      <div class="agentic-right">
+        <div class="agentic-card reveal reveal-d1">
+          <div class="agentic-card-num">01</div>
+          <div class="agentic-card-name">LLM Foundry</div>
+          <div class="agentic-card-desc">60% faster cycles, 7-day PoC creation. Rapidly build and iterate on large language model pipelines without sacrificing governance or accuracy.</div>
+        </div>
+        <div class="agentic-card reveal reveal-d2">
+          <div class="agentic-card-num">02</div>
+          <div class="agentic-card-name">Enterprise Security</div>
+          <div class="agentic-card-desc">Governed, compliant, bias-free AI. Every model and workflow is audited against enterprise-grade security policies and regulatory standards.</div>
+        </div>
+        <div class="agentic-card reveal reveal-d3">
+          <div class="agentic-card-num">03</div>
+          <div class="agentic-card-name">Seamless Integration</div>
+          <div class="agentic-card-desc">Future-proof across ERP, CRM & cloud. Straive agents plug natively into your existing tech stack without lengthy migration timelines.</div>
+        </div>
+        <div class="agentic-card reveal reveal-d1">
+          <div class="agentic-card-num">04</div>
+          <div class="agentic-card-name">Multi-Modal Agents</div>
+          <div class="agentic-card-desc">Text, audio, video, image & documents. Our agents process and reason across every modality your business relies on.</div>
+        </div>
+        <div class="agentic-card reveal reveal-d2">
+          <div class="agentic-card-num">05</div>
+          <div class="agentic-card-name">Reusable Accelerators</div>
+          <div class="agentic-card-desc">Industry agents & solution libraries. Pre-built, tested accelerators cut deployment time and let teams focus on differentiation.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES + OUTCOMES -->
+  <section id="industries">
+    <h2 class="section-title reveal reveal-d1">Enhancing Outcomes<br>Across Industries
+    </h2>
+    <div class="ind-list reveal reveal-d1"
+      style="max-width: 800px; margin: 72px auto 0; display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+      <div class="ind-item active" data-particle="ind"><canvas class="ind-canvas"></canvas>Science and Research <span>→</span></div>
+      <div class="ind-item" data-particle="ind"><canvas class="ind-canvas"></canvas>Banking &amp; Financial Services <span>→</span></div>
+      <div class="ind-item" data-particle="ind"><canvas class="ind-canvas"></canvas>Logistics, Supply Chain &amp; Manufacturing <span>→</span></div>
+      <div class="ind-item" data-particle="ind"><canvas class="ind-canvas"></canvas>Pharma and Life Sciences <span>→</span></div>
+      <div class="ind-item" data-particle="ind"><canvas class="ind-canvas"></canvas>Education <span>→</span></div>
+      <div class="ind-item" data-particle="ind"><canvas class="ind-canvas"></canvas>Retail Tech, Entertainment and Media <span>→</span></div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section id="awards">
+
+    <h2 class="section-title reveal reveal-d1">Hyperscaler Partnerships<br>That Drive Growth
+    </h2>
+    <div class="awards-row reveal reveal-d1">
+      <div class="award-tile">
+        <div class="award-icon">🏆</div>
+        <div class="award-name">Newsweek AI Impact 2025</div>
+        <div class="award-sub">Winner</div>
+      </div>
+      <div class="award-tile">
+        <div class="award-icon">🥇</div>
+        <div class="award-name">Globee Gold Award</div>
+        <div class="award-sub">AI Development</div>
+      </div>
+      <div class="award-tile">
+        <div class="award-icon">⚡</div>
+        <div class="award-name">Microsoft CNBC</div>
+        <div class="award-sub">AI for All Award</div>
+      </div>
+      <div class="award-tile">
+        <div class="award-icon">◈</div>
+        <div class="award-name">AIM Data Science</div>
+        <div class="award-sub">Recognition</div>
+      </div>
+      <div class="award-tile">
+        <div class="award-icon">💡</div>
+        <div class="award-name">Edison Award</div>
+        <div class="award-sub">Geospatial Innovation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT OUTCOMES -->
+  <section id="client-outcomes" style="padding-top: 100px;">
+    <h2 class="section-title reveal reveal-d1">Driving Impact With Our Data Analytics &amp;<br>AI Capabilities</h2>
+    <div class="outcomes-grid reveal reveal-d2" style="margin-top: 64px;">
+      <div class="outcome-card" data-particle="outcome">
+        <canvas class="outcome-canvas"></canvas>
+        <div class="oc-val">20%+</div>
+        <div class="oc-desc" style="font-size:13px;">Our automation and AI models enabled one of the top 10 commercial
+          banks in the US to achieve a 20%+ reduction in commercial customer onboarding time.</div>
+        <div class="oc-client">Tier 1 Bank</div>
+      </div>
+      <div class="outcome-card" data-particle="outcome">
+        <canvas class="outcome-canvas"></canvas>
+        <div class="oc-val">99.5%</div>
+        <div class="oc-desc" style="font-size:13px;">By ensuring a 99.5% accuracy in identifying fraudulent checks with
+          AI models, we helped one of the regional banks in the US drive highly resilient operations.</div>
+        <div class="oc-client">Regional Bank</div>
+      </div>
+      <div class="outcome-card" data-particle="outcome">
+        <canvas class="outcome-canvas"></canvas>
+        <div class="oc-val">€20M</div>
+        <div class="oc-desc" style="font-size:13px;">A dedicated team of experts implemented to streamline payment
+          collections with a comprehensive, data-driven strategy to clear over 25,000 invoices within a year.</div>
+        <div class="oc-client">Open-access Publisher</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WE ARE STRAIVE -->
+  <section id="we-are-straive"
+    style="background: var(--text); color: var(--white); padding: 140px 0; position: relative; overflow: hidden; margin-top: 20px;">
+    <!-- Dark overlay (if a background image is added later, this ensures text readability) -->
+    <div
+      style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(17,16,16,0.95) 0%, rgba(17,16,16,0.8) 100%); z-index: 0;">
+    </div>
+
+    <div
+      style="max-width: 1200px; margin: 0 auto; padding: 0 40px; position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;">
+      <!-- Left: Large Text -->
+      <div class="reveal reveal-d1">
+        <h2
+          style="font-family: var(--font-display); font-size: 140px; font-weight: 200; line-height: 0.95; letter-spacing: -0.03em; margin: 0;">
+          We Are<br>Straive
+        </h2>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="reveal reveal-d2">
+        <p
+          style="font-size: 16px; font-weight: 300; line-height: 1.8; color: rgba(255,255,255,0.8); margin-bottom: 48px;">
+          As an operationalizing AI company, we don't just build top-tier data analytics and AI solutions—we integrate
+          them seamlessly into your core workflows. This approach drives enhanced efficiency, improves user experience,
+          and boosts revenue, setting you apart from the competition.
+        </p>
+
+        <!-- Pill Box -->
+        <div
+          style="display: flex; align-items: center; justify-content: space-between; background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.3); border-radius: 100px; padding: 28px 40px; backdrop-filter: blur(10px);">
+          <div style="flex: 1; padding-right: 20px;">
+            <div style="font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.6); margin-bottom: 4px;">Improve
+            </div>
+            <div style="font-size: 20px; font-weight: 600;">Efficiency</div>
+          </div>
+          <div style="width: 1px; height: 40px; background: rgba(255,255,255,0.2);"></div>
+          <div style="flex: 1; padding: 0 20px;">
+            <div style="font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.6); margin-bottom: 4px;">Enhance
+            </div>
+            <div style="font-size: 20px; font-weight: 600;">Revenues</div>
+          </div>
+          <div style="width: 1px; height: 40px; background: rgba(255,255,255,0.2);"></div>
+          <div style="flex: 1; padding-left: 20px;">
+            <div style="font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.6); margin-bottom: 4px;">Elevate
+            </div>
+            <div style="font-size: 20px; font-weight: 600;">Experiences</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section id="values">
+
+    <h2 class="section-title reveal reveal-d1">We Translate Experience and<br>Expertise Into
+      Business Outcomes</h2>
+    <div class="values-grid reveal reveal-d1"
+      style="grid-template-columns: 1fr 1fr; gap: 40px; background: transparent; border: none; margin-top: 64px;">
+      <div style="background: var(--white); padding: 48px; border: 1px solid var(--border);">
+        <h3
+          style="font-family: var(--font-display); font-size: 24px; font-weight: 600; margin-bottom: 32px; color: var(--text);">
+          Our Promise</h3>
+        <div style="display: flex; gap: 40px;">
+          <div>
+            <div class="value-num" style="color: var(--orange);">3-5x</div>
+            <div class="value-title">ROI</div>
+          </div>
+          <div>
+            <div class="value-num" style="color: var(--orange);">7 Days</div>
+            <div class="value-title">Prototype Development</div>
+          </div>
+        </div>
+      </div>
+      <div style="background: var(--white); padding: 48px; border: 1px solid var(--border);">
+        <h3
+          style="font-family: var(--font-display); font-size: 24px; font-weight: 600; margin-bottom: 32px; color: var(--text);">
+          Our Differentiators</h3>
+        <div style="display: flex; gap: 40px;">
+          <div>
+            <div class="value-num" style="color: var(--orange);">18,000+</div>
+            <div class="value-title">Associates</div>
+          </div>
+          <div>
+            <div class="value-num" style="color: var(--orange);">6,000+</div>
+            <div class="value-title">Associates (SMEs)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOGNITION -->
+  <section id="recognition">
+    <h2 class="section-title reveal reveal-d1">We Are Recognized for<br>Impactful Results
+    </h2>
+    <div class="awards-row reveal reveal-d1"
+      style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 64px;">
+      <div class="award-tile"
+        style="background: var(--off-white); padding: 32px; border: 1px solid var(--border); border-radius: 4px; text-align: center; display: flex; flex-direction: column; justify-content: center;">
+        <div class="award-icon" style="font-size: 32px; margin-bottom: 16px;">🏆</div>
+        <div class="award-name" style="font-size: 16px; font-weight: 600; line-height: 1.4; color: var(--text);">
+          Microsoft CNBC AI for All Award</div>
+        <div class="award-sub" style="font-size: 13px; color: var(--text-mid); margin-top: 8px;">Societal Progress</div>
+      </div>
+      <div class="award-tile"
+        style="background: var(--off-white); padding: 32px; border: 1px solid var(--border); border-radius: 4px; text-align: center; display: flex; flex-direction: column; justify-content: center;">
+        <div class="award-icon" style="font-size: 32px; margin-bottom: 16px;">⭐</div>
+        <div class="award-name" style="font-size: 16px; font-weight: 600; line-height: 1.4; color: var(--text);">Major
+          Contender</div>
+        <div class="award-sub" style="font-size: 13px; color: var(--text-mid); margin-top: 8px;">Data Annotations &amp;
+          Labeling PEAK Matrix</div>
+      </div>
+      <div class="award-tile"
+        style="background: var(--off-white); padding: 32px; border: 1px solid var(--border); border-radius: 4px; text-align: center; display: flex; flex-direction: column; justify-content: center;">
+        <div class="award-icon" style="font-size: 32px; margin-bottom: 16px;">📈</div>
+        <div class="award-name" style="font-size: 16px; font-weight: 600; line-height: 1.4; color: var(--text);">Rising
+          Star (EU) / Product Challenger (US)</div>
+        <div class="award-sub" style="font-size: 13px; color: var(--text-mid); margin-top: 8px;">IDP Services Study
+        </div>
+      </div>
+      <div class="award-tile"
+        style="background: var(--off-white); padding: 32px; border: 1px solid var(--border); border-radius: 4px; text-align: center; display: flex; flex-direction: column; justify-content: center;">
+        <div class="award-icon" style="font-size: 32px; margin-bottom: 16px;">🥉</div>
+        <div class="award-name" style="font-size: 16px; font-weight: 600; line-height: 1.4; color: var(--text);">Edison
+          Award - Bronze</div>
+        <div class="award-sub" style="font-size: 13px; color: var(--text-mid); margin-top: 8px;">Innovative Geospatial
+          Solution</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THOUGHT LEADERSHIP -->
+  <section id="thought-leadership" style="background: var(--off-white);">
+    <div class="section-eyebrow reveal">Knowledge</div>
+    <h2 class="section-title reveal reveal-d1">We Provide Industry-Leading<br>Thought
+        Leadership</h2>
+    <div class="thought-grid reveal reveal-d1"
+      style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 64px;">
+
+      <!-- Block 1 -->
+      <div
+        style="background: var(--white); border: 1px solid var(--border); padding: 40px; display: flex; flex-direction: column;">
+        <div
+          style="font-size: 11px; text-transform: uppercase; color: var(--orange); font-weight: 600; letter-spacing: 0.1em; margin-bottom: 16px;">
+          Short Read</div>
+        <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 600; margin-bottom: 16px;">Cold
+          Storage Industry Report 2026</h3>
+        <p style="font-size: 14px; color: var(--text-mid); line-height: 1.6; margin-bottom: 24px;">Based on real-world
+          deployments and industry-wide analysis, this report shows why digital transformation is no longer optional and
+          how leaders are operationalizing AI to unlock measurable outcomes...</p>
+        <a href="#"
+          style="margin-top: auto; color: var(--orange); font-weight: 600; text-decoration: none; font-size: 13px; display: flex; align-items: center; gap: 8px;">Dive
+          Deeper <span style="font-size: 18px;">→</span></a>
+      </div>
+
+      <!-- Block 2 -->
+      <div
+        style="background: var(--white); border: 1px solid var(--border); padding: 40px; display: flex; flex-direction: column;">
+        <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 600; margin-bottom: 16px;">Improving
+          Clinical Data Quality: From Manual Reporting to Intelligent Automation</h3>
+        <p style="font-size: 14px; color: var(--text-mid); line-height: 1.6; margin-bottom: 24px;">Clinical research is
+          rapidly moving toward a future in which data quality must be continuously evaluated rather than reviewed after
+          problems arise....</p>
+        <a href="#"
+          style="margin-top: auto; color: var(--orange); font-weight: 600; text-decoration: none; font-size: 13px; display: flex; align-items: center; gap: 8px;">Dive
+          Deeper <span style="font-size: 18px;">→</span></a>
+      </div>
+
+      <!-- Block 3 -->
+      <div
+        style="background: var(--white); border: 1px solid var(--border); padding: 40px; display: flex; flex-direction: column;">
+        <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+          <div
+            style="font-size: 11px; text-transform: uppercase; color: var(--orange); font-weight: 600; letter-spacing: 0.1em;">
+            Blog</div>
+          <div
+            style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 600; letter-spacing: 0.1em;">
+            Analyst Recognition</div>
+        </div>
+        <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 600; margin-bottom: 16px;">Straive
+          Recognized as a Leader in AIM Research’s PeMa Quadrant for Agentic AI Service Providers 2025</h3>
+        <p style="font-size: 14px; color: var(--text-mid); line-height: 1.6; margin-bottom: 24px;">Straive has been
+          recognized as a Leader in AIM Research’s PeMa Quadrant for Agentic AI Service Providers 2025....</p>
+        <a href="#"
+          style="margin-top: auto; color: var(--orange); font-weight: 600; text-decoration: none; font-size: 13px; display: flex; align-items: center; gap: 8px;">Dive
+          Deeper <span style="font-size: 18px;">→</span></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CULTURE -->
+  <section id="culture" style="background: var(--white);">
+    <div class="section-eyebrow reveal">Life @ Straive</div>
+    <h2 class="section-title reveal reveal-d1">Explore Life @ Straive</h2>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 64px; align-items: center;">
+      <div class="reveal reveal-d1">
+        <p style="font-size: 18px; color: var(--text-mid); line-height: 1.8; margin-bottom: 32px;">At Straive, we
+          believe that our teams and our capability will make data and AI accessible, adaptable, and actionable...</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 32px;">
+          <div
+            style="padding: 8px 16px; background: var(--cream); border-radius: 100px; font-weight: 600; font-size: 13px; color: var(--orange);">
+            #innovation</div>
+          <div
+            style="padding: 8px 16px; background: var(--cream); border-radius: 100px; font-weight: 600; font-size: 13px; color: var(--text);">
+            Returnship</div>
+          <div
+            style="padding: 8px 16px; background: var(--cream); border-radius: 100px; font-weight: 600; font-size: 13px; color: var(--text);">
+            Wellness Activities</div>
+          <div
+            style="padding: 8px 16px; background: var(--cream); border-radius: 100px; font-weight: 600; font-size: 13px; color: var(--text);">
+            Respect</div>
+          <div
+            style="padding: 8px 16px; background: var(--cream); border-radius: 100px; font-weight: 600; font-size: 13px; color: var(--text);">
+            Meritocracy</div>
+        </div>
+      </div>
+      <div class="reveal reveal-d2"
+        style="position: relative; height: 400px; background: var(--cream); border-radius: 2px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+        <svg viewBox="0 0 100 100" fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="1"
+          style="width: 50%; height: 50%;">
+          <circle cx="50" cy="40" r="15" />
+          <path d="M 25 90 Q 50 60 75 90" />
+        </svg>
+        <div
+          style="position: absolute; bottom: 20px; left: 20px; background: var(--white); padding: 12px 20px; font-weight: 600; font-size: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+          Motivation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta">
+    <div class="cta-bg"></div>
+    <div style="position:relative;z-index:1;text-align:center;">
+      <div class="cta-eyebrow reveal">Get Started</div>
+      <h2 class="cta-title reveal reveal-d1">We Partner to Operationalize Data Analytics &amp; <span class="accent"
+          data-text="AI">AI</span> for Your Enterprise</h2>
+      <p class="cta-sub reveal reveal-d2" style="margin-bottom: 24px;">Enter your information and describe your
+        Inquiry.<br>We’ll get back to you as soon as possible. Thanks!</p>
+      <div class="cta-form reveal reveal-d2">
+        <input class="cta-input" type="email" placeholder="Work email address">
+        <button class="cta-btn">Get In Touch</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="display: flex; flex-direction: column; align-items: stretch;">
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 40px; margin-bottom: 64px; width: 100%;">
+      <div>
+        <h4
+          style="font-family: var(--font-display); color: #fff; font-size: 15px; margin-bottom: 20px; font-weight: 600;">
+          Services</h4>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Data
+              Management</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Insights &amp;
+              Analytics</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">AI
+              Engineering</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Product Engg.
+              &amp; Ops</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">IT &amp;
+              Tech-Ops</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">AI Customer
+              Experience</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Generative
+              AI</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4
+          style="font-family: var(--font-display); color: #fff; font-size: 15px; margin-bottom: 20px; font-weight: 600;">
+          Industries</h4>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Investment
+              Management</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Banking &amp;
+              Financial Services</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Education</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Energy</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Logistics &amp;
+              Supply Chain</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Pharma &amp;
+              Life Sciences</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Retail Tech,
+              Entertainment &amp; Media</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Science &amp;
+              Research</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4
+          style="font-family: var(--font-display); color: #fff; font-size: 15px; margin-bottom: 20px; font-weight: 600;">
+          Thought Leadership</h4>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Blogs</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Case Studies</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Brochures</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Whitepapers</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">E-books</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Webinars</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Infographics</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Videos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4
+          style="font-family: var(--font-display); color: #fff; font-size: 15px; margin-bottom: 20px; font-weight: 600;">
+          Company</h4>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">About Us</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Careers</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Contact Us</a>
+          </li>
+        </ul>
+        <h4
+          style="font-family: var(--font-display); color: #fff; font-size: 15px; margin-top: 32px; margin-bottom: 20px; font-weight: 600;">
+          Other Links</h4>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Learning
+              Mate</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">SG Analytics</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4
+          style="font-family: var(--font-display); color: #fff; font-size: 15px; margin-bottom: 20px; font-weight: 600;">
+          Social</h4>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">LinkedIn</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">Instagram</a>
+          </li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">X</a></li>
+          <li><a href="#" style="color: rgba(240,237,232,0.5); text-decoration: none; font-size: 13px;">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div
+      style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; gap: 20px; align-items: center;">
+        <img src="./Images/straive_logo.webp" alt="Straive" style="height:24px;opacity:0.7;filter:brightness(10);">
+        <div class="footer-copy">© 2026 Straive. All rights reserved.</div>
+      </div>
+      <div style="display: flex; gap: 24px;">
+        <a href="#" style="color: rgba(240,237,232,0.4); text-decoration: none; font-size: 12px;">Cookie Policy</a>
+        <a href="#" style="color: rgba(240,237,232,0.4); text-decoration: none; font-size: 12px;">Terms of Service</a>
+        <a href="#" style="color: rgba(240,237,232,0.4); text-decoration: none; font-size: 12px;">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursor-ring');
+    let rx = 0, ry = 0, cx = 0, cy = 0;
+    document.addEventListener('mousemove', e => { cx = e.clientX; cy = e.clientY; cursor.style.left = cx + 'px'; cursor.style.top = cy + 'px'; });
+    (function animRing() {
+      rx += (cx - rx) * 0.1; ry += (cy - ry) * 0.1;
+      ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+      requestAnimationFrame(animRing);
+    })();
+    document.querySelectorAll('a,button,.ind-item,.cap-card,.partner-badge,.award-tile,.value-card,.lead-card').forEach(el => {
+      el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2)'; ring.style.borderColor = 'rgba(255,80,0,0.6)'; ring.style.width = '44px'; ring.style.height = '44px'; });
+      el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.borderColor = 'rgba(255,80,0,0.35)'; ring.style.width = '32px'; ring.style.height = '32px'; });
+    });
+
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+    document.querySelectorAll('.ind-item').forEach(item => {
+      item.addEventListener('click', () => {
+        document.querySelectorAll('.ind-item').forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+      });
+    });
+
+    // ── HERO INTERACTIVE UPGRADES ──
+
+    // Mouse spotlight
+    const heroSection = document.getElementById('hero');
+    document.addEventListener('mousemove', e => {
+      const r = heroSection.getBoundingClientRect();
+      if (e.clientY < r.bottom) {
+        const x = ((e.clientX - r.left) / r.width * 100).toFixed(1);
+        const y = ((e.clientY - r.top) / r.height * 100).toFixed(1);
+        heroSection.style.setProperty('--mx', x + '%');
+        heroSection.style.setProperty('--my', y + '%');
+      }
+    });
+
+    // ── Particle network canvas ──
+    (function () {
+      const canvas = document.getElementById('hero-canvas');
+      const ctx = canvas.getContext('2d');
+      let W, H, particles;
+      const mouse = { x: -9999, y: -9999 };
+
+      function init() {
+        W = canvas.width = heroSection.offsetWidth;
+        H = canvas.height = heroSection.offsetHeight;
+        particles = Array.from({ length: 50 }, () => ({
+          x: Math.random() * W,
+          y: Math.random() * H,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: (Math.random() - 0.5) * 0.35,
+          r: Math.random() * 1.4 + 0.4,
+          ox: 0, oy: 0
+        }));
+      }
+
+      document.addEventListener('mousemove', e => {
+        const r = canvas.getBoundingClientRect();
+        mouse.x = e.clientX - r.left;
+        mouse.y = e.clientY - r.top;
+      });
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        const CONN_DIST = 130;
+        const REPEL_R = 110;
+
+        particles.forEach(p => {
+          const dx = p.x - mouse.x, dy = p.y - mouse.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < REPEL_R && dist > 0) {
+            const force = (REPEL_R - dist) / REPEL_R;
+            p.vx += (dx / dist) * force * 0.45;
+            p.vy += (dy / dist) * force * 0.45;
+          }
+          p.vx *= 0.978; p.vy *= 0.978;
+          const spd = Math.sqrt(p.vx * p.vx + p.vy * p.vy);
+          if (spd > 1.8) { p.vx *= 1.8 / spd; p.vy *= 1.8 / spd; }
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
+          if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+        });
+
+        // Lines
+        for (let i = 0; i < particles.length; i++) {
+          for (let j = i + 1; j < particles.length; j++) {
+            const ddx = particles[i].x - particles[j].x;
+            const ddy = particles[i].y - particles[j].y;
+            const d = Math.sqrt(ddx * ddx + ddy * ddy);
+            if (d < CONN_DIST) {
+              ctx.globalAlpha = (1 - d / CONN_DIST) * 0.28;
+              ctx.strokeStyle = 'rgba(255,80,0,1)';
+              ctx.lineWidth = 0.6;
+              ctx.beginPath();
+              ctx.moveTo(particles[i].x, particles[i].y);
+              ctx.lineTo(particles[j].x, particles[j].y);
+              ctx.stroke();
+            }
+          }
+        }
+
+        // Dots
+        ctx.globalAlpha = 1;
+        particles.forEach(p => {
+          ctx.fillStyle = 'rgba(255,80,0,0.45)';
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fill();
+        });
+
+        requestAnimationFrame(draw);
+      }
+
+      init();
+      draw();
+      window.addEventListener('resize', init);
+    })();
+
+    // ── Animated stat counters ──
+    function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+
+    function countUp(spanEl, endVal, suffix, duration, prefix) {
+      prefix = prefix || '';
+      const start = performance.now();
+      function tick(now) {
+        const p = Math.min((now - start) / duration, 1);
+        const v = Math.round(easeOutCubic(p) * endVal);
+        spanEl.textContent = prefix + v + suffix;
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    setTimeout(() => {
+      const statBlocks = document.querySelectorAll('.hero-stat-block');
+      statBlocks.forEach(block => {
+        const span = block.querySelector('.hero-stat-val span');
+        const label = block.querySelector('.hero-stat-label');
+        if (!span || !label) return;
+        const text = span.textContent.trim();
+        const lbl = label.textContent.toLowerCase();
+
+        if (lbl.includes('roi')) {
+          // "3–5" — scramble then settle
+          let t = 0;
+          const iv = setInterval(() => {
+            const a = Math.floor(Math.random() * 3) + 1;
+            const b = a + Math.floor(Math.random() * 4) + 2;
+            span.textContent = a + '–' + b;
+            if (++t >= 12) { clearInterval(iv); span.textContent = '3–5'; }
+          }, 70);
+        } else if (lbl.includes('client')) {
+          countUp(span, 80, '', 1000);
+        } else if (lbl.includes('poc') || lbl.includes('prototype')) {
+          countUp(span, 7, '', 600);
+        } else if (lbl.includes('associate')) {
+          const start = performance.now();
+          function tickK(now) {
+            const p = Math.min((now - start) / 1400, 1);
+            span.textContent = Math.round(easeOutCubic(p) * 18) + 'K';
+            if (p < 1) requestAnimationFrame(tickK);
+          }
+          requestAnimationFrame(tickK);
+        }
+      });
+    }, 900);
+
+    // ── Parallax on scroll ──
+    const heroLeft = document.querySelector('.hero-left');
+    window.addEventListener('scroll', () => {
+      const sy = window.scrollY;
+      if (sy < window.innerHeight * 1.2) {
+        heroLeft.style.transform = 'translateY(' + (sy * 0.12) + 'px)';
+        heroSection.querySelector('#hero-canvas').style.transform = 'translateY(' + (sy * 0.2) + 'px)';
+      }
+    }, { passive: true });
+
+    // ── Magnetic CTA ──
+    document.querySelectorAll('.btn-primary').forEach(btn => {
+      btn.addEventListener('mousemove', e => {
+        const r = btn.getBoundingClientRect();
+        const dx = e.clientX - (r.left + r.width / 2);
+        const dy = e.clientY - (r.top + r.height / 2);
+        btn.style.transform = 'translate(' + (dx * 0.28) + 'px, ' + (dy * 0.32 - 1) + 'px)';
+      });
+      btn.addEventListener('mouseleave', () => {
+        btn.style.transition = 'transform 0.5s cubic-bezier(0.34,1.56,0.64,1), opacity 0.2s';
+        btn.style.transform = '';
+        setTimeout(() => { btn.style.transition = ''; }, 500);
+      });
+    });
+
+    // ── Periodic "AI" glitch ──
+    const accentEl = document.querySelector('.hero-headline .accent');
+    function triggerGlitch() {
+      accentEl.classList.add('glitching');
+      setTimeout(() => accentEl.classList.remove('glitching'), 380);
+      setTimeout(triggerGlitch, Math.random() * 5000 + 3500);
+    }
+    setTimeout(triggerGlitch, 2800);
+
+    // ── Vertical 3D Interactive Dot Grid Wave ──
+    const heroCanvas = document.getElementById('hero-canvas');
+    const heroCtx = heroCanvas.getContext('2d');
+
+    let cw, ch;
+    let waveParticles = [];
+
+    const Y_SPACING = 30;
+    const Z_SPACING = 25;
+    const NUM_Y = 90;
+    const NUM_Z = 80;
+
+    let waveTime = 0;
+    let cMouseX = -1000;
+    let cMouseY = -1000;
+
+    function initHeroCanvas() {
+      cw = heroCanvas.offsetWidth;
+      ch = heroCanvas.offsetHeight;
+      heroCanvas.width = cw * window.devicePixelRatio;
+      heroCanvas.height = ch * window.devicePixelRatio;
+      heroCtx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    }
+
+    window.addEventListener('resize', initHeroCanvas);
+    initHeroCanvas();
+
+    document.getElementById('hero').addEventListener('mousemove', (e) => {
+      const rect = heroCanvas.getBoundingClientRect();
+      cMouseX = e.clientX - rect.left;
+      cMouseY = e.clientY - rect.top;
+    });
+
+    document.getElementById('hero').addEventListener('mouseleave', () => {
+      cMouseX = -1000;
+      cMouseY = -1000;
+    });
+
+    for (let i = 0; i < NUM_Z; i++) {
+      for (let j = 0; j < NUM_Y; j++) {
+        // z goes from 0 (front) to back
+        const z = i * Z_SPACING;
+        // y goes from top to bottom
+        const y = (j - NUM_Y / 2) * Y_SPACING;
+        waveParticles.push({
+          z: z,
+          y: y,
+          baseX: 0
+        });
+      }
+    }
+
+    function renderVerticalWave() {
+      heroCtx.clearRect(0, 0, cw, ch);
+
+      // Position the wall closer to the text
+      const cx = cw * 0.75;
+      const cy = ch / 2;
+      const fov = 400;
+
+      for (let i = 0; i < waveParticles.length; i++) {
+        const p = waveParticles[i];
+
+        // Complex wave motion flowing top to bottom
+        const wave1 = Math.sin(p.y * 0.015 - waveTime * 3) * 140;
+        const wave2 = Math.cos(p.z * 0.02 + waveTime * 1.5) * 70;
+        const bulgeX = wave1 + wave2;
+
+        // 3D Projection
+        const z = p.z + 200; // Closer camera = wider apparent spread
+        if (z < 10) continue;
+
+        const scale = fov / z;
+        let px = cx + (p.baseX - bulgeX) * scale;
+        let py = cy + p.y * scale;
+
+        // Mouse Repulsion
+        const dx = px - cMouseX;
+        const dy = py - cMouseY;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+
+        let radius = 2.5 * scale;
+        let alpha = 1 - (z / 1500); // Fade out in distance
+        if (alpha < 0) alpha = 0;
+
+        if (dist < 120) {
+          const repel = (120 - dist) / 120;
+          px -= repel * 25; // Push leftwards when mouse is near
+          radius += repel * 2;
+          heroCtx.fillStyle = `rgba(255, 80, 0, ${alpha + repel * 0.5})`; // Straive orange
+        } else {
+          heroCtx.fillStyle = `rgba(100, 100, 100, ${alpha * 0.3})`; // Subtle gray
+        }
+
+        // Draw Dot
+        heroCtx.beginPath();
+        heroCtx.arc(px, py, radius, 0, Math.PI * 2);
+        heroCtx.fill();
+      }
+
+      waveTime += 0.010;
+      requestAnimationFrame(renderVerticalWave);
+    }
+
+    renderVerticalWave();
+
+    // ── Capability Card Particle Animations ──
+    (function () {
+      // Each card gets a unique particle style based on its index
+      const CARD_CONFIGS = [
+        // 0: Data Management — orderly grid of dots that scatter on hover
+        { idle: 'grid', active: 'scatter', color: 'rgba(255,255,255,0.45)' },
+        // 1: Insights & Analytics — pulsing radial burst
+        { idle: 'radial', active: 'burst', color: 'rgba(255,200,100,0.55)' },
+        // 2: AI Design & Deployment — neural network nodes
+        { idle: 'neural', active: 'pulse', color: 'rgba(180,220,255,0.55)' },
+        // 3: Product Engg — orbiting rings
+        { idle: 'orbit', active: 'explode', color: 'rgba(255,120,80,0.55)' }
+      ];
+
+      document.querySelectorAll('.cap-card').forEach((card) => {
+        const idx = parseInt(card.dataset.cap, 10);
+        const cfg = CARD_CONFIGS[idx];
+        const cnv = card.querySelector('.cap-canvas');
+        if (!cnv) return;
+
+        const ctx = cnv.getContext('2d');
+        let W = cnv.width = cnv.offsetWidth || 200;
+        let H = cnv.height = cnv.offsetHeight || 120;
+
+        let hovered = false;
+        let raf = null;
+        let t = 0;
+        let particles = [];
+
+        // ── build idle shapes ──
+        function buildParticles() {
+          particles = [];
+          if (cfg.idle === 'grid') {
+            for (let c = 0; c < 8; c++)
+              for (let r = 0; r < 5; r++)
+                particles.push({
+                  x: (c + 1) * W / 9, y: (r + 1) * H / 6,
+                  ox: (c + 1) * W / 9, oy: (r + 1) * H / 6,
+                  vx: (Math.random() - 0.5) * 3, vy: (Math.random() - 0.5) * 3,
+                  r: 2.5
+                });
+          } else if (cfg.idle === 'radial') {
+            for (let i = 0; i < 28; i++) {
+              const a = (i / 28) * Math.PI * 2;
+              const d = 28 + Math.random() * 18;
+              particles.push({
+                x: W / 2 + Math.cos(a) * d, y: H / 2 + Math.sin(a) * d,
+                ox: W / 2 + Math.cos(a) * d, oy: H / 2 + Math.sin(a) * d,
+                a, d, r: 2 + Math.random() * 1.5
+              });
+            }
+          } else if (cfg.idle === 'neural') {
+            for (let i = 0; i < 18; i++)
+              particles.push({
+                x: 20 + Math.random() * (W - 40), y: 10 + Math.random() * (H - 20),
+                ox: 20 + Math.random() * (W - 40), oy: 10 + Math.random() * (H - 20),
+                vx: (Math.random() - 0.5) * 1.5, vy: (Math.random() - 0.5) * 1.5,
+                r: 2.5
+              });
+          } else if (cfg.idle === 'orbit') {
+            for (let i = 0; i < 24; i++) {
+              const ring = Math.floor(i / 8);
+              const a = (i % 8 / 8) * Math.PI * 2;
+              const rad = 18 + ring * 16;
+              particles.push({ ring, a, rad, speed: 0.012 - ring * 0.003, r: 2 });
+            }
+          }
+        }
+
+        buildParticles();
+
+        function draw() {
+          ctx.clearRect(0, 0, W, H);
+          ctx.fillStyle = cfg.color;
+
+          if (cfg.idle === 'grid') {
+            if (hovered) {
+              // scatter outward
+              particles.forEach(p => {
+                p.x += p.vx; p.y += p.vy;
+                // pull back slowly
+                p.vx += (p.ox - p.x) * 0.04;
+                p.vy += (p.oy - p.y) * 0.04;
+                p.vx *= 0.88; p.vy *= 0.88;
+                ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+              });
+            } else {
+              // idle grid
+              particles.forEach(p => {
+                p.x += (p.ox - p.x) * 0.12;
+                p.y += (p.oy - p.y) * 0.12;
+                ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+              });
+            }
+
+          } else if (cfg.idle === 'radial') {
+            const scale = hovered ? 1 + 0.35 * Math.sin(t * 0.08) : 1;
+            particles.forEach((p, i) => {
+              const angle = p.a + (hovered ? t * 0.03 : 0);
+              const dist = p.d * (hovered ? scale + (i % 3) * 0.15 : 1);
+              const x = W / 2 + Math.cos(angle) * dist;
+              const y = H / 2 + Math.sin(angle) * dist;
+              const alpha = hovered ? 0.9 : 0.5;
+              ctx.globalAlpha = alpha;
+              ctx.beginPath(); ctx.arc(x, y, p.r, 0, Math.PI * 2); ctx.fill();
+            });
+            ctx.globalAlpha = 1;
+
+          } else if (cfg.idle === 'neural') {
+            // draw connections
+            ctx.strokeStyle = cfg.color;
+            ctx.lineWidth = 0.5;
+            particles.forEach((p, i) => {
+              p.x += p.vx * (hovered ? 1.6 : 0.4);
+              p.y += p.vy * (hovered ? 1.6 : 0.4);
+              if (p.x < 5 || p.x > W - 5) p.vx *= -1;
+              if (p.y < 5 || p.y > H - 5) p.vy *= -1;
+              particles.slice(i + 1).forEach(q => {
+                const dx = p.x - q.x, dy = p.y - q.y;
+                const dd = Math.sqrt(dx * dx + dy * dy);
+                if (dd < 55) {
+                  ctx.globalAlpha = (1 - dd / 55) * (hovered ? 0.9 : 0.4);
+                  ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+                }
+              });
+              ctx.globalAlpha = hovered ? 0.95 : 0.55;
+              ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+            });
+            ctx.globalAlpha = 1;
+
+          } else if (cfg.idle === 'orbit') {
+            particles.forEach(p => {
+              p.a += p.speed * (hovered ? 3.5 : 1);
+              const x = W / 2 + Math.cos(p.a) * p.rad;
+              const y = H / 2 + Math.sin(p.a) * p.rad * 0.42;
+              ctx.globalAlpha = hovered ? 0.9 : 0.5;
+              ctx.beginPath(); ctx.arc(x, y, p.r, 0, Math.PI * 2); ctx.fill();
+            });
+            ctx.globalAlpha = 1;
+          }
+
+          t++;
+          raf = requestAnimationFrame(draw);
+        }
+
+        // start idle animation immediately
+        draw();
+
+        card.addEventListener('mouseenter', () => {
+          hovered = true;
+          // give grid particles a fresh kick
+          if (cfg.idle === 'grid') {
+            particles.forEach(p => {
+              p.vx = (Math.random() - 0.5) * 6;
+              p.vy = (Math.random() - 0.5) * 6;
+            });
+          }
+        });
+        card.addEventListener('mouseleave', () => { hovered = false; });
+
+        window.addEventListener('resize', () => {
+          W = cnv.width = cnv.offsetWidth || 200;
+          H = cnv.height = cnv.offsetHeight || 120;
+          buildParticles();
+        });
+      });
+    })();
+
+    // ── Industry Card Particle Animation (subtle floating dots) ──
+    (function () {
+      document.querySelectorAll('.ind-item[data-particle]').forEach((item) => {
+        const cnv = item.querySelector('.ind-canvas');
+        if (!cnv) return;
+        const ctx = cnv.getContext('2d');
+        let W, H, pts = [], hovered = false, t = 0;
+
+        function resize() {
+          W = cnv.width = item.offsetWidth;
+          H = cnv.height = item.offsetHeight;
+          pts = [];
+          for (let i = 0; i < 18; i++) {
+            pts.push({
+              x: Math.random() * W, y: Math.random() * H,
+              vx: (Math.random() - 0.5) * 0.4, vy: (Math.random() - 0.5) * 0.4,
+              r: 1.5 + Math.random() * 1.5
+            });
+          }
+        }
+        resize();
+        window.addEventListener('resize', resize);
+
+        item.addEventListener('mouseenter', () => { hovered = true; });
+        item.addEventListener('mouseleave', () => { hovered = false; });
+
+        function draw() {
+          ctx.clearRect(0, 0, W, H);
+          const speed = hovered ? 2.5 : 1;
+          pts.forEach((p, i) => {
+            p.x += p.vx * speed;
+            p.y += p.vy * speed;
+            if (p.x < 0 || p.x > W) p.vx *= -1;
+            if (p.y < 0 || p.y > H) p.vy *= -1;
+            // connect nearby dots
+            pts.slice(i + 1).forEach(q => {
+              const dx = p.x - q.x, dy = p.y - q.y, d = Math.sqrt(dx * dx + dy * dy);
+              if (d < 60) {
+                ctx.strokeStyle = hovered ? `rgba(255,80,0,${(1 - d / 60) * 0.35})` : `rgba(0,0,0,${(1 - d / 60) * 0.08})`;
+                ctx.lineWidth = 0.5;
+                ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+              }
+            });
+            ctx.fillStyle = hovered ? `rgba(255,80,0,0.5)` : `rgba(0,0,0,0.15)`;
+            ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+          });
+          t++;
+          requestAnimationFrame(draw);
+        }
+        draw();
+      });
+    })();
+
+    // ── Outcome Card Particle Animation (rising data dots) ──
+    (function () {
+      document.querySelectorAll('.outcome-card[data-particle]').forEach((card) => {
+        const cnv = card.querySelector('.outcome-canvas');
+        if (!cnv) return;
+        const ctx = cnv.getContext('2d');
+        let W, H, pts = [], hovered = false;
+
+        function resize() {
+          W = cnv.width = card.offsetWidth;
+          H = cnv.height = card.offsetHeight;
+          pts = [];
+          for (let i = 0; i < 30; i++) {
+            pts.push({
+              x: Math.random() * W,
+              y: H + Math.random() * H, // start below the card
+              vy: -(0.3 + Math.random() * 0.5), // rise upward
+              r: 1 + Math.random() * 2,
+              alpha: 0.05 + Math.random() * 0.15
+            });
+          }
+        }
+        resize();
+        window.addEventListener('resize', resize);
+        card.addEventListener('mouseenter', () => { hovered = true; });
+        card.addEventListener('mouseleave', () => { hovered = false; });
+
+        function draw() {
+          ctx.clearRect(0, 0, W, H);
+          const speed = hovered ? 3 : 1;
+          pts.forEach(p => {
+            p.y += p.vy * speed;
+            if (p.y < -10) { p.y = H + 10; p.x = Math.random() * W; }
+            ctx.fillStyle = hovered
+              ? `rgba(255,80,0,${p.alpha * 2.5})`
+              : `rgba(100,100,100,${p.alpha})`;
+            ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+          });
+          requestAnimationFrame(draw);
+        }
+        draw();
+      });
+    })();
+
+  </script>
+</body>
+
+</html>
